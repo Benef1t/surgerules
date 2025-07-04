@@ -1,0 +1,24 @@
+#!name=Local DNS Mapping
+
+[Host]
+dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1
+doh.pub = 120.53.53.53, 1.12.12.12, 2402:4e00::
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Alibaba/Alibaba_All.list = server:https://dns.alidns.com/dns-query
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Tencent/Tencent.list = server:https://doh.pub/dns-query
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list = server:https://doh.pub/dns-query
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/XiaoMi/XiaoMi.list = server:https://doh.pub/dns-query
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ByteDance/ByteDance.list = server:180.184.2.2
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Baidu/Baidu.list = server:180.76.76.76
+securelogin.com.cn = server:system
+*.securelogin.com.cn = server:system
+captive.apple.com = server:system
+hotspot.cslwifi.com = server:system
+*.m2m = server:system
+injections.adguard.org = server:system
+local.adguard.org = server:system
+*.bogon = server:system
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/router.conf = server:system
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/lan_without_real_ip.conf = server:system
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/lan_with_realip.conf = server:system
+cdn.jsdelivr.net = cdn.jsdelivr.net.cdn.cloudflare.net
+
