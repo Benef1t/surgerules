@@ -18,6 +18,7 @@ injections.adguard.org = server:system
 local.adguard.org = server:system
 *.bogon = server:system
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/router.conf = server:system
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/lan_without_real_ip.conf = server:system
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/lan_with_realip.conf = server:system
 
 
