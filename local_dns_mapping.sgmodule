@@ -11,6 +11,7 @@ RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/hea
 RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ByteDance/ByteDance.list = server:180.184.1.1
 RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list = server:8.8.8.8
 RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list = server:8.8.8.8
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Amazon/Amazon.list = server:8.8.8.8
 securelogin.com.cn = server:https://doh.pub/dns-query
 *.securelogin.com.cn = server:https://doh.pub/dns-query
 captive.apple.com = server:https://doh.pub/dns-query
