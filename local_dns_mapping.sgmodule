@@ -24,4 +24,4 @@ local.adguard.org = server:https://doh.pub/dns-query
 *.bogon = server:https://doh.pub/dns-query
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/router.conf = server:system
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/lan_with_realip.conf = server:system
-
+cdn.jsdelivr.net = cdn.jsdelivr.net.cdn.cloudflare.net
