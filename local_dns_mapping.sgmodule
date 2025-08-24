@@ -16,7 +16,7 @@ RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/hea
 
 securelogin.com.cn = server:https://doh.pub/dns-query
 *.securelogin.com.cn = server:https://doh.pub/dns-query
-captive.apple.com = server:https://doh.pub/dns-query
+captive.apple.com = server:8.8.8.8
 hotspot.cslwifi.com = server:https://doh.pub/dns-query
 *.m2m = server:https://doh.pub/dns-query
 injections.adguard.org = server:https://doh.pub/dns-query
