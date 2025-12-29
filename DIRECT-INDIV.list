@@ -13,7 +13,6 @@ DOMAIN-SUFFIX,iosapps.itunes.apple.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,mba.sgponte
-DOMAIN-SUFFIX,sharepoint.com
 
 DOMAIN,blz.nosdn.127.net
 DOMAIN-SUFFIX,canyouseeme.org
@@ -27,3 +26,6 @@ DOMAIN-SUFFIX,sooplive.com
 DOMAIN-SUFFIX,zenithgrid.co
 DOMAIN-SUFFIX,cable.auth.com
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,3gppnetwork.org
+DOMAIN-SUFFIX,t-mobile.com
